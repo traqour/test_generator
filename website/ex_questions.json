@@ -1,0 +1,772 @@
+[
+    {
+        "question": "Which of the following is NOT a way to create a VLAN?",
+        "choices": [
+            "Using protocol assignments",
+            "Defining the ports on a device as belonging to a VLAN",
+            "Using the NetBIOS computer name",
+            "Using MAC addresses"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "VLANs can be created by using protocol assignments, by defining the ports on a device as belonging to a VLAN, or by using MAC addresses. VLANs cannot be created by using the NetBIOS computer name."
+    },
+    {
+        "question": "What type of network is a MAN?",
+        "choices": [
+            "LAN",
+            "WAN",
+            "WPAN",
+            "PAN"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A MAN is confined to a certain geographic area, such as a university campus or city. No formal guidelines dictate the differences between a MAN and a WAN; technically, a MAN is a WAN. Perhaps for this reason, the term MAN is used less frequently than WAN. If any distinction exists, it\u2019s that a MAN is smaller than a WAN. A MAN is almost always bigger than a LAN and usually is smaller than or equal to a WAN. MANs utilize an Internet service provider (ISP) or telecommunications (telco) provider."
+    },
+    {
+        "question": "Which of the following topologies allows for network expansion with the least amount of disruption?",
+        "choices": [
+            "Star",
+            "Ring",
+            "Bus",
+            "Mesh"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "On a star network, each network device uses a separate cable to make a point-to-point connection to a centralized device such as a hub. With such a configuration, a new device can be added to the network by attaching the new device to the hub with its own cable. This process does not disrupt the users who are currently on the network. Answers A and B are incorrect because the addition of new network devices on a ring or bus network can cause a disruption in the network and cause network services to be unavailable during the installation of a new device."
+    },
+    {
+        "question": "Which of the following are required to establish a VPN connection?",
+        "choices": [
+            "VPN client",
+            "VPN server",
+            "VPN protocols",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Many elements are involved in establishing a VPN connection. This includes the VPN client to initiate the session, the VPN server to answer the client requests, and the VPN protocols to secure and establish the connection."
+    },
+    {
+        "question": "Which network topology offers the greatest level of redundancy but has the highest implementation cost?",
+        "choices": [
+            "Star",
+            "Ring",
+            "Bus",
+            "Mesh"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "The mesh topology requires each computer on the network to be individually connected to every other device. This configuration provides maximum reliability and redundancy for the network. However, it is very costly to implement due to the multiple wiring requirements."
+    },
+    {
+        "question": "What is the likely cause of a problem on a token ring network that uses two MSAUs connected using the ring-in ports on both devices and all network cards are set at the same speed?",
+        "choices": [
+            "Bad network card",
+            "Incorrect port configuration",
+            "Incorrect speed settings",
+            "Incomplete ring"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "To create the complete ring, the ring-in (RI) port on each MSAU is connected to the ring-out (RO) port. If the ring is incomplete, the network will not function properly."
+    },
+    {
+        "question": "Which of the following is an example of a coaxial cable?",
+        "choices": [
+            "RG-59",
+            "RG-6",
+            "Category 5",
+            "Category 6"
+        ],
+        "correct_answer_index": [
+            0,
+            1
+        ],
+        "explanation": "Coaxial cable, or coax as it is commonly called, has been around for a long time. Coax found success in both TV signal transmission and network implementations. RG-59 and RG-6 are types of coaxial cabling. RG-59 is an older type of coaxial cabling that is not used much anymore. RG-6 is the newer type of coaxial cabling and is capable of transmitting data at speeds up to 10 Gbps. (Chapter 2: Types of Cabling)"
+    },
+    {
+        "question": "Which of the following is an example of a twisted pair cabling?",
+        "choices": [
+            "Category 3",
+            "Category 5",
+            "Category 5e",
+            "Category 6"
+        ],
+        "correct_answer_index": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "explanation": "Twisted-pair cabling has been around for a very long time. It was originally created for voice transmissions and has been widely used for telephone communication. Today, in addition to telephone communication, twisted pair is the most widely used medium for networking. Two main types of twisted-pair cabling are in use today: Unshielded Twisted Pair (UTP) and Shielded Twisted Pair (STP). UTP is significantly more common than STP and is used for most networks. Category 3, Category 5, Category 5e, and Category 6 are all types of twisted pair cabling. (Chapter 2: Types of Cabling)"
+    },
+    {
+        "question": "Which of the following is an example of a fiber optic cabling?",
+        "choices": [
+            "Multimode Fiber",
+            "Single-Mode Fiber",
+            "Category 5",
+            "Category 6"
+        ],
+        "correct_answer_index": [
+            0,
+            1
+        ],
+        "explanation": "Fiber optic cabling is a type of cabling that uses light to transmit data. It is capable of transmitting data at speeds up to 40 Gbps. Multimode fiber is a type of fiber optic cabling that uses multiple light sources to transmit data. It is capable of transmitting data at speeds up to 10 Gbps. Single-mode fiber is a type of fiber optic cabling that uses a single light source to transmit data. It is capable of transmitting data at speeds up to 40 Gbps. (Chapter 2: Types of Cabling)"
+    },
+    {
+        "question": "Which of the following is an example of a serial cabling?",
+        "choices": [
+            "RJ-11",
+            "RJ-45",
+            "BNC",
+            "RS-232"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Serial cabling is a type of cabling that uses a single copper wire to transmit data. It is commonly used for connecting devices such as modems and mice. It is capable of transmitting data at speeds up to 10 Mbps. RS-232 is a TIA/EIA standard for serial transmission between computers and peripheral devices such as modems, mice, and keyboards. (Chapter 2: Types of Cabling)"
+    },
+    {
+        "question": "Which of the following is an example of a plenum cabling?",
+        "choices": [
+            "Thin Coax",
+            "Thick Coax",
+            "Plenum",
+            "Non-Plenum"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Plenum cabling is a type of cabling that is designed to be used in areas where there is a lot of air circulation, such as in an office building. It is made of a special material that is fire-resistant and does not emit toxic fumes when burned. (Chapter 2: Types of Cabling)"
+    },
+    {
+        "question": "Which of the following is an example of a connector type?",
+        "choices": [
+            "RJ-11",
+            "RJ-45",
+            "BNC",
+            "SC"
+        ],
+        "correct_answer_index": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "explanation": "RJ-11 connectors are small plastic connectors used on telephone cables. They have capacity for six small pins, but in many cases, not all the pins are used. RJ-45 connectors are the most common type of connectors used with twisted-pair cabling. They resemble RJ-11 phone jacks, but they support up to eight wires instead of the six supported by RJ-11 connectors. BNC connectors are associated with coaxial media and 10Base2 networks. SC connectors use a push-pull connector similar to common audio and video plugs and sockets. (Chapter 2: Types of Cabling)"
+    },
+    {
+        "question": "What is the purpose of a hub?",
+        "choices": [
+            "To forward data to its destination by using the MAC address embedded in each packet",
+            "To provide a pathway for the electrical signals to travel along",
+            "To connect two or more networks",
+            "To provide controlled data access between networks"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "A hub provides a pathway for the electrical signals to travel along. It does not perform any tasks besides signal regeneration. (Chapter 3)"
+    },
+    {
+        "question": "What is the purpose of a repeater?",
+        "choices": [
+            "To forward data to its destination by using the MAC address embedded in each packet",
+            "To provide a pathway for the electrical signals to travel along",
+            "To connect two or more networks",
+            "To extend the distance of a network"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A repeater is used to extend the distance of a network by regenerating the signal and sending it out again. (Chapter 3)"
+    },
+    {
+        "question": "What is the purpose of a modem?",
+        "choices": [
+            "To forward data to its destination by using the MAC address embedded in each packet",
+            "To provide a pathway for the electrical signals to travel along",
+            "To connect two or more networks",
+            "To translate digital signals used on a LAN into those used on a WAN"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A modem is a device that modulates digital signals used on a LAN into those used on a WAN. (Chapter 3)"
+    },
+    {
+        "question": "What is the purpose of a network interface card (NIC)?",
+        "choices": [
+            "To forward data to its destination by using the MAC address embedded in each packet",
+            "To provide a pathway for the electrical signals to travel along",
+            "To connect two or more networks",
+            "To enable systems to connect to the network"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A network interface card (NIC) enables systems to connect to the network. (Chapter 3)"
+    },
+    {
+        "question": "What is the purpose of a media converter?",
+        "choices": [
+            "To forward data to its destination by using the MAC address embedded in each packet",
+            "To provide a pathway for the electrical signals to travel along",
+            "To connect newer Gigabit Ethernet technologies with older 100BaseT networks or older copper standards with fiber",
+            "To enable systems to connect to the network"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "A media converter is a hardware device that connects newer Gigabit Ethernet technologies with older 100BaseT networks or older copper standards with fiber. (Chapter 3)"
+    },
+    {
+        "question": "Which of the following is true about switches?",
+        "choices": [
+            "They forward data to all the ports on the device",
+            "They forward data to only the port that connects to the destination device",
+            "They are used to connect two or more networks",
+            "They are used to connect wireless devices to a wired network"
+        ],
+        "correct_answer_index": [
+            1,
+            2
+        ],
+        "explanation": "Switches forward data to only the port that connects to the destination device by learning the MAC address of the devices attached to it and then by matching the destination MAC address in the data it receives. (Chapter 3)"
+    },
+    {
+        "question": "Which of the following is a connection-oriented protocol?",
+        "choices": [
+            "UDP",
+            "FTP",
+            "TCP",
+            "DHCP"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "TCP is a connection-oriented protocol that provides reliable data transfer, flow control, and error control."
+    },
+    {
+        "question": "Which of the following is a protocol used for setting up and tearing down voice over IP (VoIP) calls?",
+        "choices": [
+            "ARP",
+            "SIP",
+            "RTP",
+            "TFTP"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "SIP (VoIP) is a protocol used for setting up and tearing down voice over IP (VoIP) calls."
+    },
+    {
+        "question": "Which of the following is responsible for providing services to applications?",
+        "choices": [
+            "Physical Layer",
+            "Data Link Layer",
+            "Network Layer",
+            "Application Layer"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "The application layer is responsible for providing services to applications."
+    },
+    {
+        "question": "Which of the following is responsible for formatting data for applications?",
+        "choices": [
+            "Transport Layer",
+            "Session Layer",
+            "Presentation Layer",
+            "Application Layer"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "The presentation layer is responsible for formatting data for applications."
+    },
+    {
+        "question": "Which of the following is responsible for providing the mechanism by which data can be passed and routed from one network system to another?",
+        "choices": [
+            "Physical Layer",
+            "Data Link Layer",
+            "Network Layer",
+            "Transport Layer"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "The network layer is responsible for providing the mechanism by which data can be passed and routed from one network system to another."
+    },
+    {
+        "question": "Which of the following is responsible for error detection and correction?",
+        "choices": [
+            "Physical Layer",
+            "Data Link Layer",
+            "Network Layer",
+            "Transport Layer"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "The data link layer is responsible for error detection and correction."
+    },
+    {
+        "question": "What is the maximum value of an octet in an IPv4 address?",
+        "choices": [
+            "128",
+            "255",
+            "64",
+            "16"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "An IPv4 address is composed of four sets of 8 binary bits, which are called octets. The result is that IP addresses are 32 bits long. Each bit in each octet is assigned a decimal value. The leftmost bit has a value of 128, followed by 64, 32, 16, 8, 4, 2, and 1, left to right. If all the bits in the octet are 1, the value is 255, which is 128+64+32+16+8+4+2+1."
+    },
+    {
+        "question": "Which of the following is a valid IPv4 address?",
+        "choices": [
+            "192.168.2.1",
+            "2001:0:4137:9e50:2811:34ff:3f57:febc",
+            "fe80::/64",
+            "10.0.0.0/8"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "An IPv4 address is composed of four sets of 8 binary bits, which are called octets. An example of an IPv4 address is 192.168.2.1."
+    },
+    {
+        "question": "Which of the following is a valid IPv6 address?",
+        "choices": [
+            "192.168.2.1",
+            "2001:0:4137:9e50:2811:34ff:3f57:febc",
+            "fe80::/64",
+            "10.0.0.0/8"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "An IPv6 address is divided along 16-bit boundaries, and each 16-bit block is converted into a four-digit hexadecimal number and separated by colons. An example of an IPv6 address is 2001:0:4137:9e50:2811:34ff:3f57:febc."
+    },
+    {
+        "question": "Which of the following is a valid MAC address?",
+        "choices": [
+            "192.168.2.1",
+            "2001:0:4137:9e50:2811:34ff:3f57:febc",
+            "fe80::/64",
+            "00-0C-29-20-99-07"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A MAC address is a unique identifier assigned to a network interface card (NIC) by the manufacturer. It is composed of six sets of two hexadecimal digits, which are called octets. An example of a MAC address is 00-0C-29-20-99-07."
+    },
+    {
+        "question": "Which of the following is a valid IPv4 address class?",
+        "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ],
+        "correct_answer_index": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "The IPv4 address space has five address classes (A through E), although only three (A, B, and C) are used to assign addresses to clients. Class D is reserved for multicast addressing, and Class E is reserved for future development."
+    },
+    {
+        "question": "What is the maximum value of an octet in a MAC address?",
+        "choices": [
+            "128",
+            "255",
+            "64",
+            "F"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A MAC address is a unique identifier assigned to a network interface card (NIC) by the manufacturer. It is composed of six sets of two hexadecimal digits, which are called octets. The result is that MAC addresses are 48 bits long. Each bit in each octet is assigned a hexadecimal value. The leftmost bit has a value of 8, followed by 4, 2, and 1, left to right. If all the bits in the octet are 1, the value is F, which is 8+4+2+1."
+    },
+    {
+        "question": "Which of the following is a type of packet-switching technology?",
+        "choices": [
+            "Frame Relay",
+            "T-carrier",
+            "ATM",
+            "X.25"
+        ],
+        "correct_answer_index": [
+            0,
+            2,
+            3
+        ],
+        "explanation": "Frame Relay, ATM, and X.25 are all types of packet-switching technologies. T-carrier is a type of circuit-switching technology."
+    },
+    {
+        "question": "What is the maximum distance that data can be transmitted over a WAN technology?",
+        "choices": [
+            "Bits per second",
+            "Kilometers",
+            "Meters",
+            "Miles"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "The distance of a WAN technology is typically measured in kilometers."
+    },
+    {
+        "question": "Which of the following is a type of broadband Internet access technology?",
+        "choices": [
+            "DSL",
+            "T-carrier",
+            "SONET",
+            "Cable Modem"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Cable modem is a type of broadband Internet access technology that uses a cable television network to provide high-speed Internet access."
+    },
+    {
+        "question": "What is the main difference between packet switching and circuit switching?",
+        "choices": [
+            "Packet switching requires a dedicated physical connection between the sending and receiving devices.",
+            "Circuit switching requires a logical connection between the sending and receiving devices.",
+            "Packet switching uses fixed-length packets.",
+            "Circuit switching uses variable-length packets."
+        ],
+        "correct_answer_index": [
+            0,
+            1
+        ],
+        "explanation": "Packet switching requires independent routing and does not require a dedicated physical connection between the sending and receiving devices. Circuit switching requires a dedicated physical connection between the sending and receiving devices and establishes a logical connection between the two devices."
+    },
+    {
+        "question": "What is the most common type of switching method used on networks?",
+        "choices": [
+            "Circuit switching",
+            "Packet switching",
+            "Cell switching",
+            "Virtual-circuit packet switching"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "Packet switching is the most popular switching method for networks and is used on most WANs."
+    },
+    {
+        "question": "Which of the following is a type of digital transmission technology?",
+        "choices": [
+            "E1/T1",
+            "ADSL",
+            "SDSL",
+            "VDSL"
+        ],
+        "correct_answer_index": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "explanation": "E1/T1, ADSL, SDSL, and VDSL are all types of digital transmission technologies."
+    },
+    {
+        "question": "What is the maximum speed of 802.11a?",
+        "choices": [
+            "11 Mbps",
+            "54 Mbps",
+            "600 Mbps",
+            "150 Mbps"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "The 802.11a standard has a maximum speed of 54 Mbps and operates in the 5GHz frequency range."
+    },
+    {
+        "question": "What is the maximum range of 802.11b?",
+        "choices": [
+            "150 feet",
+            "300 feet",
+            "600 feet",
+            "11 Mbps"
+        ],
+        "correct_answer_index": 1,
+        "explanation": "The 802.11b standard has a maximum range of 300 feet and operates in the 2.4GHz frequency range."
+    },
+    {
+        "question": "Which of the following is an authentication and encryption protocol?",
+        "choices": [
+            "WPA",
+            "WEP",
+            "RADIUS",
+            "TKIP"
+        ],
+        "correct_answer_index": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "explanation": "WPA, WEP, RADIUS, and TKIP are all authentication and encryption protocols used for wireless networks."
+    },
+    {
+        "question": "What is the maximum speed of 802.11n?",
+        "choices": [
+            "11 Mbps",
+            "54 Mbps",
+            "600 Mbps",
+            "150 Mbps"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "The 802.11n standard has a maximum speed of 600 Mbps and operates in both the 2.4GHz and 5GHz frequency ranges."
+    },
+    {
+        "question": "What is the maximum range of 802.11a?",
+        "choices": [
+            "150 feet",
+            "300 feet",
+            "600 feet",
+            "11 Mbps"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "The 802.11a standard has a maximum range of 150 feet and operates in the 5GHz frequency range."
+    },
+    {
+        "question": "What is the recommended authentication and encryption protocol for wireless networks?",
+        "choices": [
+            "WPA",
+            "WEP",
+            "RADIUS",
+            "TKIP"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "WPA is the recommended authentication and encryption protocol for wireless networks as it is more secure than WEP."
+    },
+    {
+        "question": "Which of the following is a technique used to prioritize network traffic and ensure that important data is sent first?",
+        "choices": [
+            "Load Balancing",
+            "High Availability",
+            "QoS",
+            "Caching Engines"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "QoS (Quality of Service) is a set of techniques used to prioritize network traffic and ensure that important data is sent first. It is used to ensure that latency-sensitive applications, such as VoIP and video applications, are given priority over other traffic. (Chapter 8)"
+    },
+    {
+        "question": "Which of the following is a technique used to control the amount of data that is sent over a network?",
+        "choices": [
+            "High Availability",
+            "Fault Tolerance",
+            "Traffic Shaping",
+            "Caching Engines"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Traffic shaping is a technique used to control the amount of data that is sent over a network. It is used to ensure that the network is not overloaded and that important data is sent first. (Chapter 8)"
+    },
+    {
+        "question": "Which of the following is a measure of how quickly data is sent and received over a network?",
+        "choices": [
+            "High Bandwidth Applications",
+            "Uptime",
+            "Latency Sensitivity",
+            "VoIP"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "Latency sensitivity is the measure of how quickly data is sent and received over a network. It is important for applications such as VoIP and video applications, which require low latency. (Chapter 8)"
+    },
+    {
+        "question": "Which of the following is a technique used to ensure that a network is always available?",
+        "choices": [
+            "High Availability",
+            "Fault Tolerance",
+            "Traffic Shaping",
+            "Caching Engines"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "High availability is a technique used to ensure that a network is always available. It involves the use of redundant components and systems to ensure that the network is always running. (Chapter 8)"
+    },
+    {
+        "question": "Which of the following is a technique used to store frequently accessed data in memory so that it can be quickly retrieved?",
+        "choices": [
+            "High Availability",
+            "Fault Tolerance",
+            "Traffic Shaping",
+            "Caching Engines"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Caching engines are used to store frequently accessed data in memory so that it can be quickly retrieved. This reduces the amount of time it takes to access data and improves network performance. (Chapter 8)"
+    },
+    {
+        "question": "Which of the following are command line interface tools used to troubleshoot network issues?",
+        "choices": [
+            "High Availability",
+            "Fault Tolerance",
+            "Traffic Shaping",
+            "traceroute, ipconfig, ifconfig, ping, ARP ping, ARP, nslookup, and dig"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Command line interface tools are used to troubleshoot network issues. Examples include traceroute, ipconfig, ifconfig, ping, ARP ping, ARP, nslookup, and dig. These tools can be used to diagnose network issues and interpret the output to verify functionality. (Chapter 8)"
+    },
+    {
+        "question": "Which of the following is a hardware security device?",
+        "choices": [
+            "Firewall",
+            "Intrusion Detection System (IDS)",
+            "Intrusion Prevention System (IPS)",
+            "Virtual Private Network (VPN) Concentrator"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A Virtual Private Network (VPN) Concentrator is a hardware security device used to create secure connections over the Internet. It is one of the hardware security devices mentioned in Chapter 9: Network Security."
+    },
+    {
+        "question": "Which of the following is a feature of a firewall?",
+        "choices": [
+            "Content filtering",
+            "Signature identification",
+            "Zones",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A firewall can be configured to provide a range of features, including content filtering, signature identification, and zones. These features are mentioned in Chapter 9: Network Security."
+    },
+    {
+        "question": "Which of the following is a method of network access security?",
+        "choices": [
+            "Filtering",
+            "Tunneling and encryption",
+            "Remote access technologies",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Network access security involves the use of filtering, tunneling and encryption, and remote access technologies. These methods are mentioned in Chapter 9: Network Security."
+    },
+    {
+        "question": "Which of the following is an example of a tunneling and encryption technology?",
+        "choices": [
+            "SSL VPN",
+            "VPN",
+            "L2TP",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Tunneling and encryption technologies, such as SSL VPN, VPN, and L2TP, are used to create secure connections over the Internet. These technologies are mentioned in Chapter 9: Network Security."
+    },
+    {
+        "question": "Which of the following is an example of a remote access technology?",
+        "choices": [
+            "RAS",
+            "SSL VPN",
+            "VPN",
+            "L2TP"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Remote access technologies, such as RAS, are used to allow users to access a network from a remote location. This technology is mentioned in Chapter 9: Network Security."
+    },
+    {
+        "question": "Which of the following is a feature of a firewall?",
+        "choices": [
+            "Application layer protection",
+            "Network layer protection",
+            "Stateful and stateless scanning",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "A firewall can be configured to provide a range of features, including application layer and network layer protection, stateful and stateless scanning, content filtering, signature identification, and zones. These features are mentioned in Chapter 9: Network Security."
+    },
+    {
+        "question": "Which of the following is NOT a type of wiring schematic?",
+        "choices": [
+            "General",
+            "Detail Table",
+            "Multimeter",
+            "Backbone"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "General and Detail Table are types of wiring schematics, while Multimeter and Backbone are not. This information can be found in Chapter 10."
+    },
+    {
+        "question": "Which of the following is an advantage of having quality network documentation?",
+        "choices": [
+            "Saves time and money when troubleshooting",
+            "Helps new administrators quickly see the network layout",
+            "Allows consultants and contractors to do their job more easily",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Having quality network documentation offers a number of advantages, including saving time and money when troubleshooting, helping new administrators quickly see the network layout, and allowing consultants and contractors to do their job more easily. This information can be found in Chapter 10."
+    },
+    {
+        "question": "Which of the following is NOT a type of network monitoring utility?",
+        "choices": [
+            "Packet sniffer",
+            "Intrusion detection software",
+            "Load testing",
+            "Temperature monitor"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Packet sniffer, Intrusion detection software, and Load testing are types of network monitoring utilities, while Temperature monitor is not. This information can be found in Chapter 10."
+    },
+    {
+        "question": "Which of the following is an example of a hardware tool used to identify networks by physical and logical schematics?",
+        "choices": [
+            "Certifier",
+            "TDR",
+            "OTDR",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Certifier, TDR, and OTDR are examples of hardware tools used to identify networks by physical and logical schematics. This information can be found in Chapter 10."
+    },
+    {
+        "question": "Which of the following is an example of a system log?",
+        "choices": [
+            "History log",
+            "Event log",
+            "Network log",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "History log, Event log, and Network log are examples of system logs. This information can be found in Chapter 10."
+    },
+    {
+        "question": "Which of the following should be included in network documentation?",
+        "choices": [
+            "Network topology",
+            "Wiring layout",
+            "Server configuration",
+            "All of the above"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Network topology, wiring layout, and server configuration should all be included in network documentation. This information can be found in Chapter 10."
+    },
+    {
+        "question": "What is the first step in the troubleshooting process?",
+        "choices": [
+            "Establish the most probable cause",
+            "Identify the affected areas of the network",
+            "Determine if anything has changed",
+            "Gather information and identify symptoms"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "The first step in the troubleshooting process is to gather information and identify symptoms. This is done by using knowledge of the operating system used, good communication skills, and a little patience. Information can be gathered from the computer (in the form of logs and error messages), the computer user experiencing the problem, and your own observation. (Chapter 11)"
+    },
+    {
+        "question": "What is the process of transferring a problem to a higher level of support called?",
+        "choices": [
+            "Escalation",
+            "Documentation",
+            "Testing",
+            "Implementation"
+        ],
+        "correct_answer_index": 0,
+        "explanation": "Escalation is the process of transferring a problem to a higher level of support. This could be a more experienced technician, a supervisor, or a vendor. Escalation is necessary when the problem is beyond the scope of the technician\u2019s knowledge or experience. (Chapter 11)"
+    },
+    {
+        "question": "Which of the following is NOT a potential source of information when gathering information about a problem?",
+        "choices": [
+            "The computer user experiencing the problem",
+            "The computer (in the form of logs and error messages)",
+            "The network administrator",
+            "The internet"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "Information can be gathered from the computer (in the form of logs and error messages), the computer user experiencing the problem, and your own observation. The internet is not a potential source of information. (Chapter 11)"
+    },
+    {
+        "question": "Which of the following is NOT a step in the troubleshooting process?",
+        "choices": [
+            "Identify the affected areas of the network",
+            "Determine if anything has changed",
+            "Create an action plan and solution identifying potential effects",
+            "Install new hardware"
+        ],
+        "correct_answer_index": 3,
+        "explanation": "The steps in the troubleshooting process are: Identify the affected areas of the network, Determine if anything has changed, Establish the most probable cause, Determine if escalation is necessary, Create an action plan and solution identifying potential effects, Implement and test the solution, Identify the results and effects of the solution, and Document the solution and the entire process. Installing new hardware is not a step in the troubleshooting process. (Chapter 11)"
+    },
+    {
+        "question": "Which of the following is a potential cause of a problem that affects multiple users?",
+        "choices": [
+            "A user playing with the TCP/IP settings of a single computer",
+            "A change in DHCP scope by a new administrator",
+            "A new piece of furniture in the office",
+            "A new software update"
+        ],
+        "correct_answer_index": [
+            1,
+            3
+        ],
+        "explanation": "A change in DHCP scope by a new administrator might affect several users, whereas a user playing with the TCP/IP settings of a single computer will affect only that person. A new software update is also a potential cause of a problem that affects multiple users. (Chapter 11)"
+    },
+    {
+        "question": "What is the final step in the troubleshooting process?",
+        "choices": [
+            "Identify the affected areas of the network",
+            "Determine if anything has changed",
+            "Document the solution and the entire process",
+            "Implement and test the solution"
+        ],
+        "correct_answer_index": 2,
+        "explanation": "The final step in the troubleshooting process is to document the solution and the entire process. This is an important step, as it allows you to track the progress of the troubleshooting process and to ensure that the problem is resolved. (Chapter 11)"
+    }
+]
