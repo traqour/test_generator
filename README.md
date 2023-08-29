@@ -2,7 +2,13 @@
 
 An application that allows you to ingest a PDF of a textbook and leverage the content to generate an interactive query system and create practice tests. This app utilizes Llama-Index and UnstructuredReader to understand and extract knowledge from the textbook.
 
-Link to show an example test created from this code on the CompTIA Network+ Exam (IT certification test): https://youtu.be/ocFLl9EpLAU
+Link to show an example test created based on the CompTIA Network+ Exam textbook (IT certification test):
+
+CompTIA® Network+ Exam Cram, Third Edition
+ISBN-13: 978-0-7897-3796-0
+ISBN-10: 0-7897-3796-5
+
+ https://youtu.be/ocFLl9EpLAU
 
 ## Features
 
