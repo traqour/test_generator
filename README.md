@@ -2,6 +2,8 @@
 
 An application that allows you to ingest a PDF of a textbook and leverage the content to generate an interactive query system and create practice tests. This app utilizes Llama-Index and UnstructuredReader to understand and extract knowledge from the textbook.
 
+Link to show an example test created from this code on the CompTIA Network+ Exam (IT certification test): https://youtu.be/ocFLl9EpLAU
+
 ## Features
 
 - **Textbook Ingestion:** Upload a PDF of the textbook you want to analyze and gain insights from.
